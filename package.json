@@ -1,0 +1,28 @@
+{
+  "name": "random-int-ts-ci-co",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-init": "./node_modules/.bin/tsc --init",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugan86/random-int-ts-ci-co.git"
+  },
+  "keywords": [],
+  "author": "Anartz Mugika <mugan86@gmail.com> (https://mugan86.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mugan86/random-int-ts-ci-co/issues"
+  },
+  "homepage": "https://github.com/mugan86/random-int-ts-ci-co#readme",
+  "dependencies": {
+    "random-int": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}
