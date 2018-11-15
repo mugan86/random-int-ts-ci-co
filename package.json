@@ -1,12 +1,14 @@
 {
-  "name": "random-int-ts-ci-co",
+  "name": "random-int-list",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha  --reporter spec",
     "tsc-init": "./node_modules/.bin/tsc --init",
-    "build": "./node_modules/.bin/tsc"
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,12 @@
   },
   "homepage": "https://github.com/mugan86/random-int-ts-ci-co#readme",
   "dependencies": {
+    "@types/node": "^10.12.5",
     "random-int": "^1.0.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
     "typescript": "^3.1.6"
   }
 }
