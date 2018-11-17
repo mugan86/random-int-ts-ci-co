@@ -2,7 +2,7 @@ var expect = require('chai').expect;
 var module = require('./../dist/index');
 
 describe('randomIntList Function Check', () => {
-    it('Longitud de la lista es corercta', () => {
+    it('Longitud de la lista es correcta', () => {
         
         const listLongitudes = [2, 3, 4, 5];
         for (var i = 0; i < listLongitudes.length; i++) {
