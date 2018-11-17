@@ -1,4 +1,5 @@
 # Info about library
+[![Build Status](https://travis-ci.org/mugan86/random-int-ts-ci-co.svg?branch=master)](https://travis-ci.org/mugan86/random-int-ts-ci-co)
 
 This library will serve to generate lists of random numbers with the specified length,...
 
