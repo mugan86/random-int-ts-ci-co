@@ -1,6 +1,7 @@
 # Info about library
 [![Build Status](https://travis-ci.org/mugan86/random-int-ts-ci-co.svg?branch=master)](https://travis-ci.org/mugan86/random-int-ts-ci-co)
 [![Coverage Status](https://coveralls.io/repos/github/mugan86/random-int-ts-ci-co/badge.svg?branch=master)](https://coveralls.io/github/mugan86/random-int-ts-ci-co?branch=master)
+[![npm version](https://badge.fury.io/js/random-int-list.svg)](https://badge.fury.io/js/random-int-list)
 
 This library will serve to generate lists of random numbers with the specified length,...
 
