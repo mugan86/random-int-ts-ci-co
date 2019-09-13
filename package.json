@@ -11,6 +11,9 @@
     "watch": "./node_modules/.bin/tsc --watch",
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@mugan86"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mugan86/random-int-ts-ci-co.git"
